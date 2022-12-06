@@ -41,4 +41,50 @@ p span {
   color: white;
 }
 
+.titre-nav {
+  position: absolute;
+  display: flex;
+  color: white;
+  font-size: xx-large;
+  font-size: 250%;
+  top: 28vh;
+  left: 46vw;
+}
+
+.para-nav {
+  position: absolute;
+  display: flex;
+  color: #9eaaaa;
+  font-size: x-large;
+  top: 41vh;
+  left: 33vw;
+}
+
+.para-nav span:nth-child(1) {
+  color: #9eaaaa;
+}
+
+.para-nav span:nth-child(2) {
+  display: flex;
+  position: relative;
+  color: #9eaaaa;
+  right: 27vw;
+}
+
+.btn-nav {
+  display: flex;
+  position: absolute;
+  top: 55vh;
+  left: 46vw;
+  background-color: #f32853;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
