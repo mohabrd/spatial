@@ -12,7 +12,7 @@ body {
   filter: brightness(50%);
 }
 
-p {
+header p {
   position: absolute;
   display: flex;
   color: white;
@@ -20,7 +20,7 @@ p {
   left: 7vw;
 }
 
-p span {
+header p span {
   padding-right: 5px;
   font-weight: bolder;
   font-size: x-large;
